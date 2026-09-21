@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&display=swap');
+
+:root {
+	--color-blurple: #5865f2;
+	--color-dark-blurple: #3442d9;
+	--color-hover-blurple: #8891f2;
+	--color-spring-green: #57f287;
+	--color-vivid-cerulean: #00b0f4;
+	--color-ember-orange: #fda220;
+	--color-ekko-red: #de2761;
+	--color-void: #000000;
+	--color-snow: #ffffff;
+	--color-not-quite-black: #23272a;
+	--color-dark-charcoal: #2c2f33;
+	--color-graphite: #333333;
+	--color-fog: #babcd9;
+	--color-greyple: #99aab5;
+	--color-dim-grey: #50555f;
+	--color-off-white: #f6f6f6;
+
+	--font-display: "Bebas Neue", sans-serif;
+	--font-body: "Nunito", sans-serif;
+	--font-serif: "Roboto Slab", serif;
+
+	--text-body: 1rem;
+	--text-body-large: 1.25rem;
+	--text-heading-small: 2.25rem;
+	--text-heading: 3rem;
+	--text-heading-large: 3.5rem;
+	--text-display: 3.8125rem;
+
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+	--font-weight-bold: 700;
+	--font-weight-extra-bold: 800;
+
+	--spacing-unit: 0.25rem;
+	--page-max-width: 75rem;
+	--section-gap: 5rem;
+
+	--radius-buttons: 0.75rem;
+	--radius-cards: 1rem;
+	--radius-feature-panels: 1.5rem;
+
+	--surface-cosmic-page: #0e0f2d;
+	--surface-app-chrome: #23272a;
+	--surface-app: #2c2f33;
+}
+
+html {
+	box-sizing: border-box;
+	min-width: 20rem;
+	scroll-behavior: smooth;
+	background-color: var(--surface-cosmic-page);
+	color: var(--color-snow);
+	font-family: var(--font-body);
+	font-size: 100%;
+}
+
+body {
+	box-sizing: inherit;
+	min-width: inherit;
+	min-height: 100vh;
+	margin: 0;
+	overflow-x: hidden;
+	background-color: var(--surface-cosmic-page);
+	color: var(--color-snow);
+	font-family: var(--font-body);
+	font-size: var(--text-body);
+	font-weight: var(--font-weight-regular);
+	line-height: 1.5;
+	letter-spacing: 0.013em;
+}
